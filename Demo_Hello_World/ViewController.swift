@@ -13,10 +13,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        
+        initProcess()
         print("Welcome!")
     }
-
+    func initProcess() {
+        print("Push to UAT - 1")
+    }
 
 }
 
