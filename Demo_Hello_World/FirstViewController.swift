@@ -22,7 +22,7 @@ class FirstViewController: UIViewController {
     }
     func addition(a: Int, b: Int) {
         var result = a * b
-        print("Result is \(result)")
+        print("Result is = \(result)")
     }
 
 }
