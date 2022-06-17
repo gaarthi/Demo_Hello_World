@@ -23,6 +23,11 @@ class FirstViewController: UIViewController {
     func addition(a: Int, b: Int) {
         var result = a * b
         print("Result is = \(result)")
+        print("1")
+        print("2")
+        print("3")
+        print("4")
+        print("5")
     }
 
 }
