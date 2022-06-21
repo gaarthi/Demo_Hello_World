@@ -29,6 +29,7 @@ class FirstViewController: UIViewController {
         print("2")
         print("3")
         print("4")
+        print("branch 1 conflict test")
         print("5")
         print("6")
     }
