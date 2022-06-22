@@ -12,13 +12,26 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        addition(a: 45, b: 67)
+        
     }
     
 
+    @IBAction func btnTapped(_ sender: UIButton) {
+        
+        addition(a: 45, b: 67)
+    }
+    // Addition Method
+    
     func addition(a: Int, b: Int) {
         var result = a * b
-        print("Result is \(result)")
+        print("Result is = \(result)")
+        print("1")
+        print("2")
+        print("3")
+        print("4")
+        print("branch 1 conflict test")
+        print("5")
+        print("6")
     }
 
 }
